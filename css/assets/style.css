@@ -8,8 +8,7 @@
     padding: 0 67px; 
 }
 .site-link{
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
     .navbar{
         height: 97px;
@@ -100,21 +99,17 @@ font-size: 50px;
 
 
 
-
-
-
-
-
-
-
-
-
-.conteneur {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 
-    grid-template-rows: 100px 100px 100px 100px 100px;
-    grid-gap: 10px;
+@media screen and (max-width: 426px) {
+.navbar {
+    justify-content: center;
 }
-.box {
-height: 200px;
+.navbar .group-link, .navbar .nav-button{
+    display: none;
+}
+.ihi{
+    align-items: center;
+}
+.navbar .div{
+    width: 100px;
+}
 }
